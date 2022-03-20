@@ -1,0 +1,38 @@
+.loginStyling {
+    /* margin-inline-start: -61px; */
+    justify-content: center;
+    display: flex;
+    margin: 20.4rem;
+}
+
+.inputStyle {
+    width: 20rem;
+    box-shadow: 0px 10px 30px #2121211a;
+    border-radius: 20px;
+    height: 52px;
+    border: none;
+}
+
+.inputHeaderStyle {
+    margin-bottom: -12px;
+    margin-inline-start: 1rem;
+}
+
+.boldStyle {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.buttonStyling {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.loginBtn {
+    width: 335px;
+    height: 56px;
+    background: #0648FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 12px #0648fa4d;
+    border-radius: 20px;
+    color: #FFFFFF;
+}

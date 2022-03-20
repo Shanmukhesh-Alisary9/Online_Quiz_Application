@@ -1,0 +1,14 @@
+#page-content {
+    width: 100%;
+    height: 100%;
+    padding-left: 8rem;
+    margin: 0rem;
+    background-color: white;
+}
+
+.bgImg {
+    background-image: url(/assets/Result/scores.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

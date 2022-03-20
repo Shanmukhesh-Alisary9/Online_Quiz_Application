@@ -1,0 +1,78 @@
+
+
+<div class="row signupStyling mt-5">
+    <div class="  justify-content-center ">
+
+
+    <div class="col-12  mt-4">
+        <span class="boldStyle">
+            Sign Up
+        </span>
+    </div>
+
+
+
+        <p class="inputHeaderStyle " style="margin-top: 2rem;">Email-Id</p>
+        <div class="col-12">
+            <mat-form-field appearance="fill">
+              <mat-label>Enter your email</mat-label>
+              <input class="inputStyle" matInput  [formControl]="email" required>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+          </div>
+
+          <p class="inputHeaderStyle">Mobile Number</p>
+          <div class="col-12">
+            <mat-form-field appearance="fill">
+              <mat-label>Enter your Mobile Number</mat-label>
+              <input class="inputStyle" matInput  [formControl]="email" required>
+              <mat-error *ngIf="mobile.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+          </div>
+
+          <p class="inputHeaderStyle">Password</p>
+          <div class="example-container">
+            <mat-form-field appearance="fill">
+              <mat-label>Enter your Password</mat-label>
+              <input class="inputStyle"  matInput [type]="hide ? 'password' : 'text'" [formControl]="password" required>
+              <!-- <i class="material-icons" matSuffix (click)="hide = !hide">
+                {{ hide ? "visibility" : "visibility_off" }}
+              </i> -->
+
+              <!-- <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button> -->
+
+                
+              <mat-error *ngIf="password.invalid">{{getErrorPwdMessage()}}</mat-error>
+            </mat-form-field>
+          </div>
+
+
+          <p class="inputHeaderStyle">Confirm Password</p>
+          <div class="example-container">
+            <mat-form-field appearance="fill">
+              <mat-label>Confirm Your Password</mat-label>
+              <input class="inputStyle"  matInput [type]="hide ? 'password' : 'text'" [formControl]="confirmpassword" required>
+
+                
+              <mat-error *ngIf="confirmpassword.invalid">{{getErrorPwdMessage()}}</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="col-12  mt-1">
+            <span>
+                Already a Member?
+            </span>
+            <a href="" routerLink="/auth" >
+                Sign In
+            </a>
+        </div>
+
+          
+          <div class="buttonStyling  mt-4">
+            <button class="signupBtn" mat-raised-button type="submit">Register</button>
+          </div>
+
+      
+</div>

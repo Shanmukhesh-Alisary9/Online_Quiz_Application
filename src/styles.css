@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400&display=swap");
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+:root {
+  --primary: #00b1e3;
+  cursor: url("assets/Root/pencil-cursor.svg"), default; 
+}
+
+.primaryText {
+  color: var(--primary);
+}
+
+.mat-tooltip {
+  white-space: pre-line;
+}
+
+.mat-form-field-outline {
+  background: white;
+  border-radius: 5px;
+}
