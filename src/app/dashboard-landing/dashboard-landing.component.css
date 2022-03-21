@@ -1,0 +1,114 @@
+#page-content {
+    width: 100%;
+    height: 100%;
+    padding-left: 8rem;
+    margin: 0rem;
+}
+
+.profileStyling {
+    font: normal normal bold 24px/22px Lato;
+}
+
+.searchStyling {
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 13px;
+}
+
+.quizBgImg {
+    background-image: url(/assets/Dashboard/quizBg.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 300px; */
+}
+
+.boxStyling {
+    background-color: white;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.nameStyling {
+    font: normal normal normal 21px/56px Lato;
+}
+
+.emailStyling{
+    font: normal normal normal 14px/56px Lato;
+    color: #B5BAD0;
+    margin-top: -20px;
+}
+
+.scoreStyling {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.imageStarStyling {
+    margin-top: -18px;
+}
+
+.newQuizBtn {
+    background: #0648FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2c273814;
+    color: white;
+}
+
+.recentQuizStyling {
+    font: normal normal normal 20px/22px Lato;
+    color: #000000BF;
+}
+
+.sportsCard {
+    width: 210px;
+    background: transparent linear-gradient(180deg, #FFBD6E 0%, #BA6600 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.dateStyling {
+    color: #FFFFFF;
+}
+
+.titleStyling {
+    margin-top: -32px;
+    margin-inline-start: 4.5px;
+    color: white;
+    font-size: 16px;
+}
+
+.descStyling {
+    margin-top: -41px;
+    margin-inline-start: 4.5px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.entertainmentCard {
+    width: 210px;
+    background: transparent linear-gradient(180deg, #2AB6EB 0%, #044057 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.scienceCard {
+    width: 210px;
+    background: transparent linear-gradient(180deg, #24E2C2 0%, #00725F 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.mathematicsCard {
+    width: 210px;
+    background: transparent linear-gradient(180deg, #EF9090 0%, #9B1212 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.physcologyCard {
+    width: 210px;
+    background: transparent linear-gradient(180deg, #FFBD6E 0%, #BA6600 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}

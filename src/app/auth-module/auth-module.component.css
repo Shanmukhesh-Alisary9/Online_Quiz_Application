@@ -1,0 +1,46 @@
+.quizHeader {
+    background: #EFEFEF;
+    margin: 0rem !important;
+    border: 18px solid #EFEFEF;
+    opacity: 1;
+    padding: 0rem !important;
+    color: #707070;
+    font-size: 20px;
+    font-family: -webkit-body;
+}
+
+.headerStyling {
+    margin: 0rem 0.2rem 0rem 0.2rem;
+}
+
+.knowledgreTxt {
+    margin-left: 3rem;
+    font: normal normal 100 42px/50px Lato;
+    letter-spacing: 2.52px;
+    color: #000000E6;
+}
+
+.gearUpTxt {
+    margin-left: 3rem;
+    font: normal normal normal 24px/29px Lato;
+    letter-spacing: 1.44px;
+    color: #000000E6;
+    text-transform: capitalize;
+}
+
+.alignImage {
+    margin-inline-start: -120px;
+}
+
+.bgImg {
+    background-image: url(/assets/Auth/login-BG.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgStyle {
+    margin-bottom: -18px;
+    margin-top: -9px;
+    height:30px;
+}
