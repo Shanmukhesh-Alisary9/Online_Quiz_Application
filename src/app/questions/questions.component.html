@@ -1,0 +1,73 @@
+<div id="page-content" class="row">
+    <div class="take_quiz col-12 p-4">
+        <div class="take_quiz-header">
+            <h3>Taking New Quiz</h3>
+            <div class="take_quiz-buttons">
+                <button class="cancel_button btn btn-light">Cancel</button>
+                <button (click)="submit()" class="submit_button btn btn-primary ml-4">Save & Submit</button>
+            </div>
+        </div>
+        <div class="take_quiz-info">
+            <div class="info">
+                <p>#Quiz</p>
+                <p>Quiz 18</p>
+            </div>
+            <div class="info">
+                <p>Quiz Category</p>
+                <p>{{category.title}}</p>
+            </div>
+            <div class="info">
+                <p>Description</p>
+                <p>{{category.description}}</p>
+            </div>
+        </div>
+        <ngx-slick-carousel 
+            class="carousel" 
+            #slickModal="slick-carousel" 
+            [config]="slideConfig" 
+            (init)="slickInit($event)"
+            (afterChange)="afterChange($event)"
+        >
+            <div ngxSlickItem *ngFor="let slide of category.questions" class="slide">
+                <div class="quiz_card">
+                    <div class="title">Question</div>
+                    <div class="question">{{slide.question}}</div>
+                    <form class="options row">
+                        <ng-container *ngFor="let option of slide.options">
+                            <ng-container *ngIf="!option.isImageType">
+                                <div class="option col-12">
+                                    <div>{{option.key}}</div>
+                                    <label class="values" [ngClass]="{'correct': (option.key === slide.selected && slide.answer === slide.selected), 'incorrect': (option.key === slide.selected && slide.answer !== slide.selected)}" class={{option.key}}>
+                                        <p>{{option.value}}</p>
+                                        <img class="check" [ngClass]="{'active': option.key === slide.selected}" [src]="(option.key === slide.selected && slide.answer === slide.selected) ? '../../assets/check.png' : (option.key === slide.selected && slide.answer !== slide.selected) ? '../../assets/remove.png' : '../../assets/check.png'" />
+                                        <input class="radio" type="radio" name="answer" ng-model="formData.answer" value={{option.key}} (change)='changeRadio($event, slide)'>
+                                    </label>
+                                </div>
+                            </ng-container>
+                            <ng-container *ngIf="option.isImageType">
+                                <div class="option image_type col-6">
+                                    <div>{{option.key}}</div>
+                                    <label class="values" [ngClass]="{'correct': (option.key === slide.selected && slide.answer === slide.selected), 'incorrect': (option.key === slide.selected && slide.answer !== slide.selected)}" class={{option.key}}>
+                                        <img class="image" src={{option.value}} />
+                                        <img class="check" [ngClass]="{'active': option.key === slide.selected}" [src]="(option.key === slide.selected && slide.answer === slide.selected) || slide.selected === '' ? '../../assets/check.png' : (option.key === slide.selected && slide.answer !== slide.selected) ? '../../assets/remove.png' : '../../assets/check.png'" />
+                                        <input class="radio" type="radio" name="answer" ng-model="formData.answer" value={{option.key}} (change)='changeRadio($event, slide)'>
+                                    </label>
+                                </div>
+                            </ng-container>
+                        </ng-container>
+                    </form>
+                </div>
+            </div>
+        </ngx-slick-carousel>
+        <div class="control">
+            <button class="prev_button btn" (click)="prev()">Previous Question</button>
+            <div class="middle-section">
+                <div class="count">{{countText}} Questions</div>
+                <div class="progress w-100" style="height: 10px;">
+                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <button class="next_button btn" (click)="next()">Next Question</button>
+        </div>
+    </div>
+</div>
