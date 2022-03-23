@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ContentChild } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
@@ -15,6 +15,10 @@ export class LoginRootComponent implements OnInit {
   hide = true;
 
   ngOnInit(): void {
+  }
+
+  toggleShow() {
+    this.hide = !this.hide;
   }
 
   email = new FormControl('', [Validators.required, Validators.email]);

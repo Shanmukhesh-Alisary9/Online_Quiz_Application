@@ -1,0 +1,47 @@
+<div id="page-content" class="row">
+    <div class="take_quiz col-12 p-4">
+        <div class="take_quiz-header">
+            <h3>Creating New Quiz</h3>
+            <div class="take_quiz-buttons">
+                <button class="cancel_button btn btn-light">Cancel</button>
+                <button class="submit_button btn btn-primary ml-4">Save & Publish</button>
+            </div>
+        </div>
+        <div class="take_quiz-info">
+            <div class="info">
+                <p>Quiz Category</p>
+                <p>{{category.title}}</p>
+            </div>
+            <div class="info">
+                <p>Description</p>
+                <p>{{category.description}}</p>
+            </div>
+        </div>
+        <div *ngFor="let slide of category.questions">
+            <form class="quiz_card">
+                <div class="title">Question</div>  
+                <div class="question">{{slide.question}}</div>
+                <div class="options">
+                    <div *ngFor="let option of slide.options">
+                        <div *ngIf="!option.isImageType" class="option">
+                            <div>{{option.key}}</div>
+                            <label class="values" [ngClass]="{'correct': (option.key === slide.selected && slide.answer === slide.selected), 'incorrect': (option.key === slide.selected && slide.answer !== slide.selected)}" class={{option.key}}>
+                                <p>{{option.value}}</p>
+                                <img class="check" [ngClass]="{'active': option.key === slide.selected}" src="../../assets/check.png" />
+                                <input class="radio" type="radio" name="answer" ng-model="formData.answer" value={{option.key}} (change)='changeRadio($event, slide)'>
+                            </label>
+                        </div>
+                        <div *ngIf="option.isImageType" class="option image_type">
+                            <div>{{option.key}}</div>
+                            <label class="values" [ngClass]="{'correct': (option.key === slide.selected && slide.answer === slide.selected), 'incorrect': (option.key === slide.selected && slide.answer !== slide.selected)}" class={{option.key}}>
+                                <img class="image" src={{option.value}} />
+                                <img class="check" [ngClass]="{'active': option.key === slide.selected}" src="../../assets/check.png" />
+                                <input class="radio" type="radio" name="answer" ng-model="formData.answer" value={{option.key}} (change)='changeRadio($event, slide)'>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

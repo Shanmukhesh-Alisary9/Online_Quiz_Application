@@ -8,6 +8,8 @@ import { DashboardLandingComponent } from './dashboard-landing/dashboard-landing
 import { QuizComponent } from './quiz/quiz.component';
 import { ReportsComponent } from './reports/reports.component';
 import { ResultPageComponent } from './result-page/result-page.component';
+import { QuestionsComponent } from './questions/questions.component';
+import { CreateQuestionsComponent } from './create-questions/create-questions.component';
 
 const routes: Routes = [
 
