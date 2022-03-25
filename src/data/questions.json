@@ -1,0 +1,243 @@
+{
+    "sports": {
+        "title": "Sports",
+        "description": "This quiz is about Sports",
+        "questions": [
+            {
+                "key": 1,
+                "question": "The Olympics are held every how many years?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "4",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "6",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "5",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "3",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "Who has won more tennis grand slam titles?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Venus Williams",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Serena Williams",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Maria Sharapova",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Sania Mirza",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "Which boxer fought against Muhammad Ali and won?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Mike Tyson",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Sugar Ray Robinson",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Joe Frazier",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Floyd Mayweather",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "Who is the cricket player Sachin Tendulkar in the images below?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://i0.wp.com/short-biography.com/wp-content/uploads/usain-bolt/Usain-Bolt.jpg?fit=1526%2C1526&ssl=1",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://economictimes.indiatimes.com/thumb/msid-72033478,width-1200,height-900,resizemode-4,imgsize-222096/sachin-tendulkar.jpg?from=mdr",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://i.pinimg.com/474x/77/ca/b5/77cab5cb8a13f53c0022432d9a84f2e4.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/01/21/15480265236914.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+    "entertainment": {
+        "title": "Entertainment",
+        "description": "This quiz is about entertainment",
+        "questions": [
+            {
+                "key": 1,
+                "question": "King khan of bollywood",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "SRK",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Salman Khan",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Hrithik Roshan",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Ranbir Kapoor",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "Who has won more tennis grand slam titles?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Venus Williams",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Serena Williams",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Maria Sharapova",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Sania Mirza",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "Which boxer fought against Muhammad Ali and won?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Mike Tyson",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Sugar Ray Robinson",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Joe Frazier",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Floyd Mayweather",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "Who is the cricket player Sachin Tendulkar in the images below?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://i0.wp.com/short-biography.com/wp-content/uploads/usain-bolt/Usain-Bolt.jpg?fit=1526%2C1526&ssl=1",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://economictimes.indiatimes.com/thumb/msid-72033478,width-1200,height-900,resizemode-4,imgsize-222096/sachin-tendulkar.jpg?from=mdr",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://i.pinimg.com/474x/77/ca/b5/77cab5cb8a13f53c0022432d9a84f2e4.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/01/21/15480265236914.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    }
+}
+

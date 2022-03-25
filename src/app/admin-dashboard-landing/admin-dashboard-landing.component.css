@@ -1,0 +1,167 @@
+#page-content {
+    width: 100%;
+    height: 100%;
+    padding-left: 8rem;
+    margin: 0rem;
+}
+
+.profileStyling {
+    font: normal normal bold 24px/22px Lato;
+}
+
+.searchStyling {
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 13px;
+}
+
+.quizBgImg {
+    background-image: url(/assets/Dashboard/quizBg.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 300px; */
+}
+
+
+.newQuizBtn {
+    background: #0648FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2c273814;
+    color: white;
+}
+
+.recentQuizStyling {
+    font: normal normal normal 20px/22px Lato;
+    color: #000000BF;
+}
+
+.sportsCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #FFBD6E 0%, #BA6600 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.dateStyling {
+    color: #FFFFFF;
+}
+
+.titleStyling {
+    margin-top: -32px;
+    margin-inline-start: 4.5px;
+    color: white;
+    font-size: 16px;
+}
+
+.descStyling {
+    margin-top: -41px;
+    margin-inline-start: 4.5px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.entertainmentCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #2AB6EB 0%, #044057 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.scienceCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #24E2C2 0%, #00725F 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.mathematicsCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #EF9090 0%, #9B1212 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.physcologyCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #FFBD6E 0%, #BA6600 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.boxLayout {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 16px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.dateStyling {
+    color: #FFFFFF;
+}
+
+.titleStyle {
+    color: white;
+    font-size: 16px;
+}
+
+.descStyle {
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.politicsCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #FFE96E 0%, #BAAC00 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.automobilesCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #2A83EB 0%, #041457 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.generalKnowledgeCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #24E299 0%, #00722C 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.electronicsCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #F5C798 0%, #E55306 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.geographyCard {
+    margin-top: 2rem;
+    width: 210px;
+    background: transparent linear-gradient(180deg, #9993F7 0%, #2519F5 100%) 0% 0% no-repeat padding-box;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.buttonStyling {
+    color: white;
+    border-radius: 9px;
+    padding: 8px 20px 8px 20px;
+    background: #0648FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #2C273814;
+    height: 35px;
+    border-style: unset;
+}

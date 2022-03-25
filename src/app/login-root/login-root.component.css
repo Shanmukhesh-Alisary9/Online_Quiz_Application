@@ -36,3 +36,21 @@
     border-radius: 20px;
     color: #FFFFFF;
 }
+
+.showpassword {
+    top: 25%;
+    right: -85%;
+    transform: translate(-85%, 25%);
+    position: absolute;
+}
+
+.showpassword img {
+    width: 24px;
+}
+
+.inputStyle[type="text"] 
+{
+    font-size:24px;
+    padding-left : 2rem;
+    background-color: red;
+}

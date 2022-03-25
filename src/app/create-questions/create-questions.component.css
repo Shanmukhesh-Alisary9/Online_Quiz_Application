@@ -1,0 +1,147 @@
+#page-content {
+    width: 100%;
+    height: 100%;
+    padding: 0 6rem 0 14rem;
+    margin: 0rem;
+    overflow-y: auto;
+}
+
+.take_quiz-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.take_quiz-header h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.take_quiz-buttons button {
+    padding: 8px 24px;
+    margin: 0 12px;
+}
+
+.take_quiz-info {
+    display: flex;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
+
+.info {
+    min-width: 12%;
+    border-left: 1px solid;
+    padding-left: 8px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.quiz_card {
+    background: white;
+    border-radius: 12px;
+}
+
+.quiz_card .title {
+    border-bottom: 1px solid;
+    padding: 16px 24px;
+}
+
+.quiz_card .question {
+    padding: 16px 24px;
+}
+
+.quiz_card .options {
+    padding: 16px 24px;
+}
+
+.next_button, .prev_button {
+    background-color: #90ee90;
+    color: white;
+    width: 30%;
+}
+
+.control {
+    display: flex;
+    width: 75.5%;
+    justify-content: space-between;
+    background: white;
+    border-radius: 12px 12px 0 0;
+    position: absolute;
+    bottom: 0;
+    padding: 16px 24px;
+    align-items: center;
+}
+
+.progress {
+    margin: 0 48px;
+}
+
+.options {
+    padding: 16px 24px;
+}
+
+.option {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.values {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    margin-left: 32px;
+    align-items: center;
+    padding: 4px 4px 4px 16px;
+}
+
+.values.correct {
+    border: 1px solid lightgreen;
+}
+
+.values.incorrect {
+    border: 1px solid lightcoral;
+}
+
+.carousel {
+    margin-bottom: 70px;
+}
+
+.values p {
+    margin: 0;
+}
+
+.values .check {
+    width: 32px;
+    opacity: 0.5;
+}
+
+.values .check.active {
+    opacity: 1;
+}
+
+.values .image {
+    width: 100px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+}
+
+.count {
+    margin-bottom: 4px;
+}
+
+.radio {
+    display: none;
+}
