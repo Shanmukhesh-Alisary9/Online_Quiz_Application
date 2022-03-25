@@ -34,7 +34,8 @@
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/slick-carousel/slick/slick.min.js"
+              "./node_modules/slick-carousel/slick/slick.min.js",
+              "./node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"
             ]
           },
           "configurations": {
@@ -101,6 +102,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "./node_modules/@lottiefiles/lottie-player/dist/lottie-player.js",
               "src/styles.css"
             ],
             "scripts": []

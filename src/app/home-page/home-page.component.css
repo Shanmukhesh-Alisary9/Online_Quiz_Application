@@ -68,3 +68,19 @@ border: 1px solid #DBE2EA
     /* opacity: 1; */
     color: white;
 }
+
+.animationStyling {
+    position: absolute;
+    top: 294px;
+}
+
+.getStartedBtn {
+    width: 141px;
+    top: 648px;
+    color: white;
+    background: #0648FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 4px #2c273814;
+    opacity: 1;
+    height: 48px;
+    border-radius: 20px;
+}
