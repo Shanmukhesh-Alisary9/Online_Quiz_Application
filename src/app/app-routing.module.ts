@@ -11,6 +11,8 @@ import { ResultPageComponent } from './result-page/result-page.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { CreateQuestionsComponent } from './create-questions/create-questions.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { AdminComponent } from './admin/admin.component';
+import { AdminDashboardLandingComponent } from './admin-dashboard-landing/admin-dashboard-landing.component';
 
 const routes: Routes = [
 
@@ -26,6 +28,15 @@ const routes: Routes = [
       { path: 'signup', component: SignupComponent },
     ],
   },
+
+  {
+    path: 'admin-dashboard',
+    component: AdminComponent,
+    children: [
+      { path: '', component: AdminDashboardLandingComponent },
+      
+    ]
+  }, 
 
   {
     path: 'dashboard',

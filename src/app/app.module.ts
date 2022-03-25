@@ -24,7 +24,12 @@ import { QuestionsComponent } from './questions/questions.component';
 import { CreateQuestionsComponent } from './create-questions/create-questions.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { LottieModule } from 'ngx-lottie';
+import { AdminComponent } from './admin/admin.component';
+import { AdminDashboardLandingComponent } from './admin-dashboard-landing/admin-dashboard-landing.component';
 
+export function playerFactory() { // add this line
+  return import('lottie-web'); // add this line
+} // add this line
 
 @NgModule({
   declarations: [
@@ -39,7 +44,9 @@ import { LottieModule } from 'ngx-lottie';
     ResultPageComponent,
     QuestionsComponent,
     CreateQuestionsComponent,
-    HomePageComponent
+    HomePageComponent,
+    AdminComponent,
+    AdminDashboardLandingComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +62,7 @@ import { LottieModule } from 'ngx-lottie';
     MatCardModule,
     SlickCarouselModule,
     LottieModule,
+    LottieModule.forRoot({ player: playerFactory })
 
   ],
   providers: [],

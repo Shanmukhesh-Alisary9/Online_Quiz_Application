@@ -1,0 +1,53 @@
+#topbar-wrapper {
+    background-color: #F9F9F9;
+    width: 100%;
+    border: 1px solid #EFEFEF;
+    margin: 0rem;
+  }
+  
+  #wrapper {
+    height: 100%;
+  }
+
+  .userStyling {
+    font: normal normal 900 23px/25px Lato;
+    color: #4B7BFB;
+    margin-top: 0.79rem!important;
+  }
+
+  #sidebar-wrapper {
+    height: 93.7vh;
+    width: 8rem;
+    position: absolute;
+    background-color: #F9F9F9;
+  }
+
+  .profileImg {
+      background-color: white;
+      margin: 1rem;
+  }
+
+  .nonProfileImg {
+    margin: 1rem;
+}
+
+  .iconImgStyling {
+      margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .logoutStyling {
+    cursor: pointer;
+    bottom: 0;
+    left: 39px;
+    position: fixed;
+    margin-bottom: 1rem;
+  }
+
+  .logoutStyling:hover {
+    color: red;
+  }
+
+  .route-content {
+    background: transparent linear-gradient(61deg, #7669B9 0%, #C0CCF2 31%, #C5D3F1 61%, #F5F4FF 100%) 0% 0% no-repeat padding-box;
+    height: 93.7%;
+  }

@@ -21,16 +21,15 @@
             <img class="lineImgStyling" src="/assets/Auth/line.svg">
         </div> 
         <div class="col-12 competeStyling d-flex justify-content-center">
-            <!-- <span style="width: 478px;"> -->
                 COMPETE AND GROW
-            <!-- </span> -->
         </div>
-        <div>
-            <!-- <lottie-player class="animation" src="./assets/animations/92377.json" background="transparent" speed="1" style="width: 418.0000915527344px; height: 418.0000915527344px;" loop autoplay></lottie-player> -->
-
+        <div class="col-12 mt-3 animationStyling d-flex justify-content-center">
+            <ng-lottie class="animation" [options]="options" src="./assets/animations/92377.json" background="transparent" speed="1" style="width: 418.0000915527344px; height: 418.0000915527344px;" loop autoplay></ng-lottie>
         </div>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    
+        
+        <div class="col-12  d-flex justify-content-center">
+            <button class="getStartedBtn" routerLink="/auth" mat-raised-button type="submit">Get Started</button>
+        </div>
         
     </div>
 
