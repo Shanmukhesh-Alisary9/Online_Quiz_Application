@@ -10,8 +10,13 @@ import { ReportsComponent } from './reports/reports.component';
 import { ResultPageComponent } from './result-page/result-page.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { CreateQuestionsComponent } from './create-questions/create-questions.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 const routes: Routes = [
+
+  {
+    path: 'home',component: HomePageComponent
+  },
 
   {
     path: 'auth',
@@ -21,6 +26,7 @@ const routes: Routes = [
       { path: 'signup', component: SignupComponent },
     ],
   },
+
   {
     path: 'dashboard',
     component: DashboardComponent,
@@ -29,11 +35,15 @@ const routes: Routes = [
       { path: 'quiz', component: QuizComponent },
       { path: 'reports', component: ReportsComponent },
       { path: 'results', component: ResultPageComponent },
+      { path: 'questions', component: QuestionsComponent },
+      { path: 'createQuestions', component: CreateQuestionsComponent },
+      
     ]
   }, 
+  
   {
     path: '**',
-    redirectTo: 'auth',
+    redirectTo: 'home',
   },
 ]
 
