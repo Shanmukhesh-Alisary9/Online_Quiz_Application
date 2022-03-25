@@ -17,6 +17,7 @@ export class QuestionsComponent implements OnInit {
   @ViewChild('slickModal') slickModal?: SlickCarouselComponent;
   @Input() countText: string = `1/${questions['sports'].questions.length}`;
 
+
   category: any = cloneDeep(questions['sports']);
   slideConfig: any = {slidesToShow: 1, slidesToScroll: 1, arrows: false, fade: true, infinite: false}
   checked: any = ''

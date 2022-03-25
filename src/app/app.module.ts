@@ -22,6 +22,9 @@ import { ReportsComponent } from './reports/reports.component';
 import { ResultPageComponent } from './result-page/result-page.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { CreateQuestionsComponent } from './create-questions/create-questions.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { LottieModule } from 'ngx-lottie';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +38,8 @@ import { CreateQuestionsComponent } from './create-questions/create-questions.co
     ReportsComponent,
     ResultPageComponent,
     QuestionsComponent,
-    CreateQuestionsComponent
+    CreateQuestionsComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +53,9 @@ import { CreateQuestionsComponent } from './create-questions/create-questions.co
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    LottieModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
