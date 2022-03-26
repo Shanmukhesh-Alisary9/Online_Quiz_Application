@@ -1,22 +1,22 @@
-<div class="row" id="page-content"  >
-    <div class="col-12 p-4">
+<div class="row" id="page-content">
+  <div class="col-12 p-4">
 
-        <!-- Quiz header wwith search -->
-        <div class="col-12 mt-4 pb-4 borderStyling d-flex">
-            <div class="col-9 profileStyling ">
-                <div style="margin-top: 12px;">
-                    QUIZ
-                    <span>
-                        <button class="newQuizBtn" mat-raised-button >
-                            Start New Quiz
-                        </button>
-                    </span>
-                </div>
-                
-                
-            </div>
-            <div class="col-3  ">
-                <!-- <mat-form-field appearance="outline" class="searchField">
+    <!-- Quiz header wwith search -->
+    <div class="col-12 mt-4 pb-4 borderStyling d-flex">
+      <div class="col-9 profileStyling ">
+        <div style="margin-top: 12px;">
+          QUIZ
+          <span>
+            <button class="newQuizBtn" mat-raised-button>
+              Start New Quiz
+            </button>
+          </span>
+        </div>
+
+
+      </div>
+      <div class="col-3  ">
+        <!-- <mat-form-field appearance="outline" class="searchField">
                     <input
                       type="text"
                       matInput
@@ -26,428 +26,52 @@
                     />
                     <mat-icon matSuffix class="magBag"> search </mat-icon>
                   </mat-form-field> -->
-                <div class="searchStyling">
-                    <div style="padding: 1rem" >
-                        Search
-                    </div>
-                    
-                </div>
-                  
-            </div>
-        </div>
-
-        <div class="col-12 categoriesStyling mt-4">
-            All Categories (10)
-        </div>
-
-        <div class="col-12 d-flex mt-5" style="justify-content: space-around;">
-
-            <!-- Sports Card -->
-            <div class="row d-flex sportsCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="" >
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Sports
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Entertainment Card -->
-            <div class="row d-flex entertainmentCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                        <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Entertainment
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Science Card-->
-            <div class="row d-flex scienceCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Science
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Mathematics Card-->
-            <div class="row d-flex mathematicsCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Mathematics
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Physcology -->
-            <div class="row d-flex physcologyCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Physcology
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
+        <div class="searchStyling">
+          <div style="padding: 1rem">
+            Search
+          </div>
 
         </div>
 
-        <div class="col-12 d-flex mt-5" style="justify-content: space-around;">
-
-            <!-- Politics Card -->
-            <div class="row d-flex politicsCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Politics
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Automobiles Card -->
-            <div class="row d-flex automobilesCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                        <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Automobiles
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- General Knowledge Card-->
-            <div class="row d-flex generalKnowledgeCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        General Knowledge
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Electronics Card-->
-            <div class="row d-flex electronicsCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Electronics
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-            <!-- Geography -->
-            <div class="row d-flex geographyCard ">
-                <div class="col-6 dateStyling d-flex justify-content-center mt-4">
-                    12/02/2022
-                </div>
-                <div class="col-6 d-flex justify-content-end scoreStyling mt-2" >
-                    <button
-                          mat-icon-button
-                          [matMenuTriggerFor]="menu"
-                          aria-label="Example icon-button with a menu"
-                          style="color: white;"
-                        >
-                          <mat-icon class="pt-1">more_vert</mat-icon>
-                        </button>
-                        <mat-menu #menu="matMenu" class="">
-                          <button mat-menu-item class="">
-                            <span>Edit</span>
-                          </button>
-                          <button
-                            type="button"
-                            mat-menu-item
-                            class="delete-button"
-                            data-toggle="modal"
-                            data-target="#deleteModal"
-                           
-                          >
-                            <span>Delete</span>
-                          </button>
-                        </mat-menu>
-                </div>
-                <div class="row">
-                    <div class="titleStyling col-12">
-                        Geography
-                    </div>
-                </div>
-                <div class="descStyling col-12">
-                        Description lore Epsom door sit ipsum free text space…
-                </div>
-            </div>
-
-        </div>
-
+      </div>
     </div>
-</div>
 
+    <div class="col-12 categoriesStyling mt-4">
+      All Categories ({{categories.length}})
+    </div>
+
+    <div class="d-flex mt-5 flex-wrap w-100" style="">
+      <ng-container *ngFor="let category of categories">
+        <div class="row d-flex {{category.key}}Card m-1 p-2">
+          <div class="col-6 dateStyling d-flex justify-content-center mt-4">
+            {{category.date}}
+          </div>
+          <div class="col-6 d-flex justify-content-end scoreStyling mt-2">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"
+              style="color: white;">
+              <mat-icon class="pt-1">more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" class="">
+              <button mat-menu-item class="">
+                <span>Edit</span>
+              </button>
+              <button type="button" mat-menu-item class="delete-button" data-toggle="modal" data-target="#deleteModal">
+                <span>Delete</span>
+              </button>
+              <button type="button" (click)="startQuiz(category.key)" mat-menu-item class="delete-button" data-toggle="modal" data-target="#deleteModal">
+                <span>Start Quiz</span>
+              </button>
+            </mat-menu>
+          </div>
+          <div class="row">
+            <div class="titleStyling col-12">
+              {{category.title}}
+            </div>
+          </div>
+          <div class="descStyling col-12">
+            {{category.description}}
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>

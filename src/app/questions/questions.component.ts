@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { cloneDeep } from 'lodash';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import questions from '../../data/questions.json'
 import { SlickCarouselComponent } from 'ngx-slick-carousel';
 
@@ -11,14 +11,14 @@ import { SlickCarouselComponent } from 'ngx-slick-carousel';
 })
 export class QuestionsComponent implements OnInit {
 
-  constructor(private router: Router,) {
+  constructor(private router: ActivatedRoute,) {
     
   }
   @ViewChild('slickModal') slickModal?: SlickCarouselComponent;
-  @Input() countText: string = `1/${questions['sports'].questions.length}`;
+  @Input() countText: any = '';
 
-
-  category: any = cloneDeep(questions['sports']);
+  questions: any = questions;
+  category: any = {};
   slideConfig: any = {slidesToShow: 1, slidesToScroll: 1, arrows: false, fade: true, infinite: false}
   checked: any = ''
 
@@ -44,6 +44,11 @@ export class QuestionsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.router.params.subscribe((paramsId: any) => {
+      const key : string = paramsId['category'];
+      this.category = cloneDeep(this.questions[key])
+      this.countText = `1/${this.questions[key].questions.length}`
+  });
   }
 
   submit() {

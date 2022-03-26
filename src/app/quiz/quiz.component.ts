@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import categories from '../../data/categories.json';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-quiz',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuizComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  categories: any = categories;
 
   ngOnInit(): void {
+  }
+
+  startQuiz (key: string) {
+    this.router.navigate([`/dashboard/quiz/${key}`]);
   }
 
 }
