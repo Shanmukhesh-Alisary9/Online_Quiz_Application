@@ -43,14 +43,19 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       { path: '', component: DashboardLandingComponent },
-      { path: 'quiz', component: QuizComponent },
+      { path: 'quiz',
+        component: QuizComponent
+      },
       { path: 'reports', component: ReportsComponent },
       { path: 'results', component: ResultPageComponent },
       { path: 'questions', component: QuestionsComponent },
       { path: 'createQuestions', component: CreateQuestionsComponent },
-      
+      {
+        path: "quiz/:category",
+        component: QuestionsComponent
+      }
     ]
-  }, 
+  },
   
   {
     path: '**',
