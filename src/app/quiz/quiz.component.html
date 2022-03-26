@@ -42,7 +42,7 @@
 
     <div class="d-flex mt-5 flex-wrap w-100" style=" justify-content: space-between;">
       <ng-container *ngFor="let category of categories" >
-        <div class="row d-flex my-4 {{category.key}}Card m-1 p-2" (click)="startQuiz(category.key)"  data-toggle="modal" data-target="#deleteModal"  >
+        <div class="row d-flex my-4 {{category.key}}Card m-1 p-2" style="cursor: pointer;" (click)="startQuiz(category.key)"  data-toggle="modal" data-target="#deleteModal"  >
           <div class="col-6 dateStyling d-flex justify-content-center mt-4">
             {{category.date}}
           </div>

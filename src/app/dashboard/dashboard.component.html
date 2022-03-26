@@ -14,7 +14,7 @@
     <div id="sidebar-wrapper">
 
         <!-- My Profile tab -->
-        <div class=" justify-content-center mt-4" [ngClass]="router.url == '/dashboard' ? 'profileImg' : 'nonProfileImg'"
+        <div class=" justify-content-center mt-4" style="cursor: pointer;" [ngClass]="router.url == '/dashboard' ? 'profileImg' : 'nonProfileImg'"
             routerLink="/dashboard">
             <div class="d-flex justify-content-center  mt-4 " >
                 <img [src]="router.url == '/dashboard'
@@ -28,7 +28,7 @@
         </div>
 
         <!-- Quiz Tab -->
-        <div class=" justify-content-center  mt-4 " [ngClass]="router.url == '/dashboard/quiz' ? 'profileImg' : ''"
+        <div class=" justify-content-center  mt-4 " style="cursor: pointer;" [ngClass]="router.url == '/dashboard/quiz' ? 'profileImg' : ''"
             routerLink="/dashboard/quiz">
             <div class="d-flex justify-content-center mt-5">
                 <!-- <img src="/assets/Dashboard/lightQuiz.svg" /> -->
@@ -43,7 +43,7 @@
         </div>
 
         <!-- Reports Tab -->
-        <!-- <div class=" justify-content-center  mt-4 " [ngClass]="router.url == '/dashboard/reports' ? 'profileImg' : ''"
+        <div class=" justify-content-center  mt-4 "  style="cursor: pointer;" [ngClass]="router.url == '/dashboard/reports' ? 'profileImg' : ''"
         routerLink="/dashboard/reports">
             <div class="d-flex justify-content-center mt-5">
                 <img [src]="router.url == '/dashboard/reports'
@@ -54,10 +54,10 @@
             <div class="d-flex justify-content-center  mt-1 pb-2">
                 Reports
             </div>
-        </div> -->
+        </div>
 
         <!-- Logout Tab -->
-        <div class=" justify-content-center logoutStyling mt-4 " routerLink="/auth">
+        <div class=" justify-content-center logoutStyling mt-4 " routerLink="/home">
             <div class="d-flex justify-content-center mt-5">
                 <img src="/assets/Dashboard/logout.svg" />
             </div>

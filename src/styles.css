@@ -75,3 +75,7 @@ body {
 .mat-form-field-appearance-fill .mat-form-field-infix {
   padding: 0.25em 0em 0.35em 0em;
 }
+
+.profileImg {
+  cursor: pointer;
+}

@@ -3,28 +3,23 @@
 
         <!-- Profile header wwith search -->
         <div class="col-12 mt-4 px-3  d-flex">
-            <div class="col-2 profileStyling ">
+            <div class="col-1 profileStyling ">
                 <div style="margin-top: 18px;">
                     Quiz
                 </div>
-                    <div class="col-8 d-flex justify-content-end">
-                        <button class="buttonStyling">
-                            Start New Quiz
-                        </button>
-                    </div>          
+                
             </div>
-
             <div class="col-3  ">
-                <!-- <mat-form-field appearance="outline" class="searchField">
-                    <input
-                      type="text"
-                      matInput
-                      placeholder="Search Careers"
-                      [formControl]="myControl"
-                      [(ngModel)]="searchText"
-                    />
-                    <mat-icon matSuffix class="magBag"> search </mat-icon>
-                  </mat-form-field> -->
+                <div  style="margin-top: 18px;">
+                    <button class="buttonStyling" style="    margin-top: -20px;" routerLink="/dashboard/quiz">
+                        Start New Quiz
+                    </button>
+                </div>
+                
+            </div>
+            <div class="col-8  "  style="
+            display: flex;
+            justify-content: end;">
                 <div class="searchStyling">
                     <div style="padding: 1rem" >
                         Search
@@ -44,16 +39,206 @@
             <div class="col-12 recentQuizStyling">
                 Reports(12)
             </div>
-            
         </div>
         
-        <div class="col-12 boxLayout" style="display: grid;" *ngFor="let item of quizCategory">
-            <div class="col-12 sportsCard">
-                {{item}}
+        <div class="col-12 boxLayout" style="display: grid;">
+            <div class="card mt-3" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Sports Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        7/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
+          
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Entertainment Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        8/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
+            
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Politics Category
+                    </b>
+                </div>
+                <div class="col-12 d-flex justify-content-center mt-2">
+                    <b>
+                        7/10
+                    </b>                
+                </div>
+                <div class="col-12 d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
 
+            <div class="card mt-4"  style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        General knowledge
+                    </b>
+                </div>
+                <div class="col-12   d-flex justify-content-center mt-2">
+                    <b>
+                        7/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Physcology Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        7/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Electronics Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        7310
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/redSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Automobiles Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        7/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Sports Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        6/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/yellowSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Science Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        3/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/redSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Politics Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        7/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/greenSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Geography Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        3/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/redSmile.svg" >
+                </div>
+            </div>
+
+            <div class="card mt-4" style="width: 306px; border-radius: 12px;">
+                <div class="col-12 d-flex justify-content-center mt-2 pb-2 categoryStyling">
+                    <b>
+                        Entertainment Category
+                    </b>
+                </div>
+                <div class="col-12  d-flex justify-content-center mt-2">
+                    <b>
+                        4/10
+                    </b>                
+                </div>
+                <div class="col-12  d-flex justify-content-center  py-2">
+                    <img src="/assets/Admin/yellowSmile.svg" >
+                </div>
             </div>
 
 
+
+           
+
+ 
         </div>
 
 

@@ -1,10 +1,13 @@
 <div id="page-content" class="row">
     <div class="take_quiz col-12 p-4">
-        <div class="take_quiz-header">
+        <div class="col-12 take_quiz-header">
             <h3>Taking New Quiz</h3>
-            <div class="take_quiz-buttons">
-                <button class="cancel_button btn btn-light">Cancel</button>
-                <button (click)="submit()" class="submit_button btn btn-primary ml-4">Save & Submit</button>
+            <div class="col-1 take_quiz-buttons">
+                <!-- <button class="cancel_button btn btn-light" routerLink="/dashboard/quiz">Cancel</button> -->
+                
+                  <button routerLink="/dashboard/quiz" style="background-color: snow;" type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+<button type="button" class="btn-close btn-close-white" disabled aria-label="Close" ></button>
+                <!-- <button (click)="submit()" class="submit_button btn btn-primary ml-4">Save & Submit</button> -->
             </div>
         </div>
         <div class="take_quiz-info">
