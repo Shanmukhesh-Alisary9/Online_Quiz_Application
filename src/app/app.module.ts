@@ -26,11 +26,13 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { LottieModule } from 'ngx-lottie';
 import { AdminComponent } from './admin/admin.component';
 import { AdminDashboardLandingComponent } from './admin-dashboard-landing/admin-dashboard-landing.component';
+import { MatInputModule } from '@angular/material/input';
+// import { NgModule } from '@angular/core';
+import player from 'lottie-web';
 
-export function playerFactory() { // add this line
-  return import('lottie-web'); // add this line
-} // add this line
-
+export function playerFactory() {
+  return player;
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,6 +64,7 @@ export function playerFactory() { // add this line
     MatCardModule,
     SlickCarouselModule,
     LottieModule,
+    MatInputModule,
     LottieModule.forRoot({ player: playerFactory })
 
   ],

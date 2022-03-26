@@ -4,37 +4,39 @@
     <div class="  justify-content-center ">
 
 
-    <div class="col-12  mt-4">
+    <div class="col-12  mt-2">
         <span class="boldStyle">
             Sign Up
         </span>
     </div>
 
 
-
+    <div class="col-12">
+      <form [formGroup]="form" (ngSubmit)="signup()">
         <p class="inputHeaderStyle " style="margin-top: 2rem;">Email-Id</p>
         <div class="col-12">
             <mat-form-field appearance="fill">
-              <mat-label>Enter your email</mat-label>
-              <input class="inputStyle" matInput  [formControl]="email" required>
+              <!-- <mat-label>Enter your email</mat-label> -->
+              <input class="inputStyle" matInput  formControlName="email" required>
               <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
             </mat-form-field>
           </div>
 
-          <p class="inputHeaderStyle">Mobile Number</p>
+          <p class="inputHeaderStyle mt-2">Mobile Number</p>
           <div class="col-12">
             <mat-form-field appearance="fill">
-              <mat-label>Enter your Mobile Number</mat-label>
-              <input class="inputStyle" matInput  [formControl]="email" required>
-              <mat-error *ngIf="mobile.invalid">{{getErrorMessage()}}</mat-error>
+              <!-- <mat-label>Enter your Mobile Number</mat-label> -->
+              <input class="inputStyle" matInput  formControlName="mobile" required>
+              <mat-error *ngIf="mobile.invalid">{{getErrorMobileMessage()}}</mat-error>
             </mat-form-field>
           </div>
 
-          <p class="inputHeaderStyle">Password</p>
+          <p class="inputHeaderStyle mt-2">Password</p>
           <div class="example-container">
             <mat-form-field appearance="fill">
-              <mat-label>Enter your Password</mat-label>
-              <input class="inputStyle"  matInput [type]="hide ? 'password' : 'text'" [formControl]="password" required>
+              <!-- <mat-label>Enter your Password</mat-label> -->
+              <input class="inputStyle"  matInput [type]="hide ? 'password' : 'text'" formControlName="password" required>
+              <span class="showpassword" (click)="toggleShow()"><img [src]="hide ? '../../assets/visibility.png' : '../../assets/view.png'" /></span>
               <!-- <i class="material-icons" matSuffix (click)="hide = !hide">
                 {{ hide ? "visibility" : "visibility_off" }}
               </i> -->
@@ -49,18 +51,18 @@
           </div>
 
 
-          <p class="inputHeaderStyle">Confirm Password</p>
+          <p class="inputHeaderStyle mt-2">Confirm Password</p>
           <div class="example-container">
             <mat-form-field appearance="fill">
-              <mat-label>Confirm Your Password</mat-label>
-              <input class="inputStyle"  matInput [type]="hide ? 'password' : 'text'" [formControl]="confirmpassword" required>
-
+              <!-- <mat-label>Confirm Your Password</mat-label> -->
+              <input class="inputStyle"  matInput [type]="hide1 ? 'password' : 'text'" formControlName="confirmpassword" required>
+              <span class="showpassword" (click)="toggleShow1()"><img [src]="hide1 ? '../../assets/visibility.png' : '../../assets/view.png'" /></span>
                 
-              <mat-error *ngIf="confirmpassword.invalid">{{getErrorPwdMessage()}}</mat-error>
+              <mat-error *ngIf="confirmpassword.invalid">{{getErrorConfirmPwdMessage()}}</mat-error>
             </mat-form-field>
           </div>
 
-          <div class="col-12  mt-1">
+          <div class="col-12  mt-3">
             <span>
                 Already a Member?
             </span>
@@ -73,6 +75,7 @@
           <div class="buttonStyling  mt-4">
             <button class="signupBtn" mat-raised-button type="submit">Register</button>
           </div>
-
+    </form>
+    </div>
       
 </div>

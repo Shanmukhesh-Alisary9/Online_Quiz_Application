@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 
-html,
+/* html,
 body {
   height: 100%;
 }
@@ -29,9 +29,9 @@ body {
 
 *:focus {
   outline: none !important;
-}
+} */
 
-:root {
+/* :root {
   --primary: #00b1e3;
   cursor: url("assets/Root/pencil-cursor.svg"), default; 
 }
@@ -47,4 +47,31 @@ body {
 .mat-form-field-outline {
   background: white;
   border-radius: 5px;
+} */
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  border-radius: 0px;
+  padding: 0rem;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: unset;
+}
+
+.mat-form-field {
+   display: grid !important;
+}
+
+.mat-form-field-underline {
+ display: none;
+}
+
+.mat-error {
+  padding-left: 0.5rem;
+  font-size: 14px;
+  margin-top: -3px;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-infix {
+  padding: 0.25em 0em 0.35em 0em;
 }

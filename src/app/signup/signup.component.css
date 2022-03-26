@@ -6,6 +6,8 @@
 }
 
 .inputStyle {
+    background-color: white;
+    padding-left: 1rem;
     width: 20rem;
     box-shadow: 0px 10px 30px #2121211a;
     border-radius: 20px;
@@ -35,4 +37,15 @@
     box-shadow: 0px 5px 12px #0648fa4d;
     border-radius: 20px;
     color: #FFFFFF;
+}
+
+.showpassword {
+    top: 25%;
+    right: -7%;
+    transform: translate(-85%, 25%);
+    position: absolute;
+}
+
+.showpassword img {
+    width: 24px;
 }

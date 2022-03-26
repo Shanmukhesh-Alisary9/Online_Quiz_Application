@@ -11,7 +11,8 @@
               </div>
          </div>
 
-    <div class="col-12 bgHomeImg"  style="height: -webkit-fill-available;">
+
+         <div class="col-12 bgHomeImg  "  style="height: -webkit-fill-available; margin-bottom: 3.4rem;">
    
             <div class="col-12 quizStyling d-flex justify-content-center">
                 Take up a Quiz
@@ -24,7 +25,10 @@
                 COMPETE AND GROW
         </div>
         <div class="col-12 mt-3 animationStyling d-flex justify-content-center">
-            <ng-lottie class="animation" [options]="options" src="./assets/animations/92377.json" background="transparent" speed="1" style="width: 418.0000915527344px; height: 418.0000915527344px;" loop autoplay></ng-lottie>
+            <!-- <ng-lottie class="animation" [options]="options" src="./assets/92377.json" background="transparent" speed="1" style="width: 418.0000915527344px; height: 418.0000915527344px;" loop autoplay></ng-lottie> -->
+            <ng-lottie class="animation"  [options]="options" (animationCreated)="animationCreated($event)"
+            background="transparent" speed="1" style="width: 418.0000915527344px; height: 418.0000915527344px;" loop autoplay
+            ></ng-lottie>
         </div>
         
         <div class="col-12  d-flex justify-content-center">
@@ -32,6 +36,5 @@
         </div>
         
     </div>
-
 
 
