@@ -6,11 +6,11 @@
       <div class="col-9 profileStyling ">
         <div style="margin-top: 12px;">
           QUIZ
-          <span>
+          <!-- <span>
             <button class="newQuizBtn" mat-raised-button>
               Start New Quiz
             </button>
-          </span>
+          </span> -->
         </div>
 
 
@@ -40,29 +40,24 @@
       All Categories ({{categories.length}})
     </div>
 
-    <div class="d-flex mt-5 flex-wrap w-100" style="">
-      <ng-container *ngFor="let category of categories">
-        <div class="row d-flex {{category.key}}Card m-1 p-2">
+    <div class="d-flex mt-5 flex-wrap w-100" style=" justify-content: space-between;">
+      <ng-container *ngFor="let category of categories" >
+        <div class="row d-flex my-4 {{category.key}}Card m-1 p-2" (click)="startQuiz(category.key)"  data-toggle="modal" data-target="#deleteModal"  >
           <div class="col-6 dateStyling d-flex justify-content-center mt-4">
             {{category.date}}
           </div>
-          <div class="col-6 d-flex justify-content-end scoreStyling mt-2">
+          <!-- <div class="col-6 d-flex justify-content-end scoreStyling mt-2" style="display: none;">
             <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu"
               style="color: white;">
               <mat-icon class="pt-1">more_vert</mat-icon>
             </button>
             <mat-menu #menu="matMenu" class="">
-              <button mat-menu-item class="">
-                <span>Edit</span>
-              </button>
-              <button type="button" mat-menu-item class="delete-button" data-toggle="modal" data-target="#deleteModal">
-                <span>Delete</span>
-              </button>
-              <button type="button" (click)="startQuiz(category.key)" mat-menu-item class="delete-button" data-toggle="modal" data-target="#deleteModal">
+ 
+              <button  type="button" (click)="startQuiz(category.key)" mat-menu-item class="delete-button" data-toggle="modal" data-target="#deleteModal">
                 <span>Start Quiz</span>
               </button>
             </mat-menu>
-          </div>
+          </div> -->
           <div class="row">
             <div class="titleStyling col-12">
               {{category.title}}

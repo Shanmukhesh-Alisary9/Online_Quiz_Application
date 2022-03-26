@@ -13,6 +13,7 @@ import { CreateQuestionsComponent } from './create-questions/create-questions.co
 import { HomePageComponent } from './home-page/home-page.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminDashboardLandingComponent } from './admin-dashboard-landing/admin-dashboard-landing.component';
+import { AdminReportsComponent } from './admin-reports/admin-reports.component';
 
 const routes: Routes = [
 
@@ -34,6 +35,7 @@ const routes: Routes = [
     component: AdminComponent,
     children: [
       { path: '', component: AdminDashboardLandingComponent },
+      { path: 'admin-reports', component: AdminReportsComponent },
       
     ]
   }, 

@@ -1,11 +1,12 @@
 {
+   
     "sports": {
         "title": "Sports",
-        "description": "This quiz is about Sports",
+        "description": "Are you Game? Toss yourself and Try our Sports quiz to know where you stack up in the ladder",
         "questions": [
             {
                 "key": 1,
-                "question": "The Olympics are held every how many years?",
+                "question": "The Olympics are held once in how many years?",
                 "options": [
                     {
                         "key": "A",
@@ -33,7 +34,7 @@
             },
             {
                 "key": 2,
-                "question": "Who has won more tennis grand slam titles?",
+                "question": "who has won the most grand slam titles in women's tennis",
                 "options": [
                     {
                         "key": "A",
@@ -89,11 +90,11 @@
             },
             {
                 "key": 4,
-                "question": "Who is the cricket player Sachin Tendulkar in the images below?",
+                "question": "Which cricket player has highest number of International runs in ICC tournaments?",
                 "options": [
                     {
                         "key": "A",
-                        "value": "https://i0.wp.com/short-biography.com/wp-content/uploads/usain-bolt/Usain-Bolt.jpg?fit=1526%2C1526&ssl=1",
+                        "value": "https://img1.hscicdn.com/image/upload/f_auto,t_gn_f_345/lsci/db/PICTURES/CMS/316500/316555.png",
                         "isImageType": true
                     },
                     {
@@ -103,12 +104,1620 @@
                     },
                     {
                         "key": "C",
-                        "value": "https://i.pinimg.com/474x/77/ca/b5/77cab5cb8a13f53c0022432d9a84f2e4.jpg",
+                        "value": "https://static.toiimg.com/thumb/msid-85007861,imgsize-380928,width-400,resizemode-4/85007861.jpg",
                         "isImageType": true
                     },
                     {
                         "key": "D",
-                        "value": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/01/21/15480265236914.jpg",
+                        "value": "https://images.news18.com/ibnlive/uploads/2021/04/1618196815_pjimage-76.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "Where did the first ancient Olympic games take place? ",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "France ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Egypt",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "India",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Greece",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "How many rings are there on the Olympic flag",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "6 ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "7",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "3",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "5",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "In which country is the League IPL played",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "India ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Australia",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "England",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "New Zealand",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "Who has the highest number of goals in Football?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Messi",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Ronaldo",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Pele",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Neymar Jr",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "The national flag of the country in which the last olympics were held?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://vignette.wikia.nocookie.net/cyberpunk/images/3/3e/255px-Flag_of_the_People%27s_Republic_of_China.svg.png/revision/latest?cb=20180830132455",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "which tennis player has the most grand slams in Men's Tennis?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://www.tennisworldusa.org/imgb/114435/rafael-nadal-i-am-not-this-kind-of-guy-who-.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://gumlet.assettype.com/thequint/2021-07/3fe79294-6abf-4f8b-9d2f-d07ebaa4336d/E5jiA0NVgAARw8k.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://api.time.com/wp-content/uploads/2022/03/djokovic-french-open-vaccine.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://static01.nyt.com/images/2012/09/09/sports/sampras2/sampras2-superJumbo.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+    "entertainment": {
+        "title": "Entertainment",
+        "description": "Are you a music lover, movie or Web series buff? Or interested in Music? Take this up to check your knowledge!",
+        "questions": [
+            {
+                "key": 1,
+                "question": "Who is the famous author of the Harry Potter book series?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "George R. R. Martin",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "N. K. Jemisin",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "J. R. R. Tolkien",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "J. K. Rowling",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "What was the name of the band who sang F.R.I.E.N.D.S.’ theme song?  ",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "The Rembrandts",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Weezer",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Pearl Jam",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Nirvana",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "Who was the fictional character Shrek marries in his titular film series",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Princess Simona",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Princess Fiona",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Princess Cora",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Princess Nora",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "Which of the following is the logo of DreamWorks Animation?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIB9QnelLVUHYOsuKqo1WUDQLy3Z68q1iCeA&usqp=CAU",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://www.universalstudioshollywood.com/tridiondata/ush/en/us/files/images/ush-header-logo-b.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://c.files.bbci.co.uk/BA86/production/_113905774_20thcenturyfoxlogo.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://thekingdominsider.com/wp-content/uploads/2017/07/Pixar-Animation-Studio-Logo.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "What sort of animal played Robin Hood in the 1973 Walt Disney film Robin Hood",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "wolf",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "dog ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "cat ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "fox",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "What is the highest-grossing R-rated movie of all time",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "La La land ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Joker ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "James bond",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Titanic",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "Who’s known as the king of pop",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Ihttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzkD0QMIWVUzCL_5lKzpE6hy0vsdK0IQ4KiQ&usqp=CAUndia ",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/25/23/web-elvis-rex.jpg?width=1200",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTukVKWHlbtE-DsVqzlfDQdBLAKV1Y7pfH3RA&usqp=CAU",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://vz.cnwimg.com/thumb-1200x/wp-content/uploads/2009/09/Jay-Z.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "The name of the lyric writer of the 1960’s musical West Side Story",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Howard Ashman",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Lynn Ahrens",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Tim Rice",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Stephen Sondheim",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Which 1985 film had the tagline - He's the only kid ever to get into trouble before he was born?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "The Breakfast Club",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Back to the Future",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "The Colour Purple",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "The Clue",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "What is the longest running musical in Broadway history?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Cats",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Alka Seltzer",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Elton John",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "The Godfather",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+    "science": {
+        "title": "Science",
+        "description": "Do you have a natural instinct for finding out why things work the way they are and love to know more? Click and find out.",
+        "questions": [
+            {
+                "key": 1,
+                "question": "What is the hardest natural substance on Earth?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Diamond",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Gold",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "uranium",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "aluminum",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "Roughly how long does it take for the sun's light to reach Earth? ",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "8 minutes",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "11minutes",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "10minutes",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "20minutes",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "The concept of gravity was discovered by which famous physicist?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Sir Isaac Newton",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Albert Einstein",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Rutherford",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Galileo",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "Which of the following is the shape of DNA??",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://cdn4.vectorstock.com/i/1000x1000/90/28/set-human-body-logos-people-shapes-linear-vector-37949028.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://image.shutterstock.com/image-vector/double-square-logo-vector-260nw-1319719928.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://scx2.b-cdn.net/gfx/news/2015/1-dna.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/SymbolSchutzklasseII.png/120px-SymbolSchutzklasseII.png",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "Which is called blue-print of information",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "DNA",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "RNA",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "RBCS",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "WBCS",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "To the nearest foot, the average human small intestine measures at what length?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "17 feet",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "20 feet ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "10 feet",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "9 feet",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "What is the softest mineral in the world?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "graphite",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "talc",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "lime stone",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "sand stone",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "How many ribs are in a human body",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "22",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "23",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "24",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "25",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Penicillin was invented by?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://i.ytimg.com/vi/ZAGY36JYQlg/maxresdefault.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://cdn.mos.cms.futurecdn.net/3buDqF4oZrEByNRVBgYwmm.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://cdn.mos.cms.futurecdn.net/CEkEW2uXjVSWojdeDDCr8K.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://media.nature.com/lw800/magazine-assets/d41586-018-02839-9/d41586-018-02839-9_15516176.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "Alfred Nobel invented which of the following items?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Dynamite",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Bulb",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Telephone",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Electricity",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+    "mathematics": {
+        "title": "Mathematics",
+        "description": "Got love for numbers and like puzzles? Check out our fun maths quiz!",
+        "questions": [
+            {
+                "key": 1,
+                "question": "How many digits are there in Hindu Arabic System?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "10",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "20",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "30",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "40",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "Among the following which natural number has no predecessor?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "100",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "200",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "1",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "0",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "Which among the following is the largest known number in the world?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Infinite ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "googol ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Googleplex ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "gram",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "In which number system there is no symbol for zero?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Hindu Arabic System",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "Roman ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "Egyptian ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "Mesopotamia",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "The Whole Number is denoted by",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "N",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "R",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "W ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Q",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "p,p+2,p+4 are prime numbers then these numbers are called",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Pythagorean triplet",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Prime triplet ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Lucas Number",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Fermat Number",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "Zero was invented by this mathematician",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://qph.fs.quoracdn.net/main-qimg-8cd2eef24fb638da9a36c96005c6c1d4.webp",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value":"https://miro.medium.com/max/660/1*KJPfh2fIGrjyXYHbfXbUpA.jpeg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://archive.factordaily.com/wp-content/uploads/2017/02/CV_Raman_Effect_lead.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://alchetron.com/cdn/john-edensor-littlewood-083b6cf6-7a64-473f-a934-21d15235272-resize-750.jpeg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "This numbers irrationality property was first Pythagoras. What is its value?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "2",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "3",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "5",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "7",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Calculus was invented by this person",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Sir Isaac Newton",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "einstein",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Ramanujan",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Archimedes",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "Which is the symbol of Sigma?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://www.shareicon.net/data/512x512/2015/11/17/673695_mathematics_512x512.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value":"https://cdn1.vectorstock.com/i/1000x1000/55/25/black-pi-symbol-vector-27105525.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Greek_lc_theta.svg/1200px-Greek_lc_theta.svg.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Greek_uc_sigma.svg/1200px-Greek_uc_sigma.svg.png",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+    "physcology": {
+        "title": "Physcology",
+        "description": "How excited do you get when you hear about how human mind works and different behavioral factors?",
+        "questions": [
+            {
+                "key": 1,
+                "question": "The word “psychology’ comes from:",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Latin",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Spanish",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Greek",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Italian",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "Psychology is defined as the scientific study of:",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "people and things",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "2emotions and beliefs",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "perception and religion",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "mind and behaviour",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "The scientific approach is more useful at answering questions about ______ than questions about ______",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "facts, values ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "ideas, emotions ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "values, facts ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "emotions, facts",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "A psychologist exploring the impact of a new drug on activity in the brain is working on the ______ level of explanation.",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "lower",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "middle ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "upper ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "all of the above ",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "A psychologist studying what makes people laugh in different countries around the world is working on the ______ level of explanation.",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "lower",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "middle ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "upper ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "A",
+                        "value": "all of the above ",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "Different people react differently to the same situation. This is referred to as: a. multiple determinants",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "nativism",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "multiple determinants",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "the Simpson effect",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "individual differences",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "Which school of psychology believes that it is impossible to objectively study the mind?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "functionalism",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value":"behaviorism",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "humanism",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "socialism                                   ",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "The Greek philosopher ______ believed that knowledge is acquired through experience and learning.",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://images.newscientist.com/wp-content/uploads/2019/06/25115508/galileogalilei.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value":"https://media.newyorker.com/photos/60259f5be5711f9a987ae20e/16:9/w_1632,h_918,c_limit/Pomerantz-DarwinShouts.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://www.biography.com/.image/t_share/MTgwOTkyMzYzODEwNzkyNTM2/gettyimages-666932578.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Phrenologists tried to find out about personality by",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Heart",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Skull",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Brain",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Palm",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "Patients with schizophrenia will most likely display ____ in their brains?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Blood clots",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value":"Enlarged ventricles",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "No detectable traces of the disease",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Discoloration of connective tissues",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+    "politics": {
+        "title": "Politics",
+        "description": "Hmm.. how about testing your knowledge on Economics, Civics and Governing leaders in the world?",
+        "questions": [
+            {
+                "key": 1,
+                "question": "What does the acronym MP stands for in politics?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Member of Politics ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Member of Parliament",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Member of Party",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Member of People",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "How many parties dominate the United States Political System?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "3",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "7",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "2",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "4",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "When did the concepts of democracy first originate?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "In ancient Rome",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "In ancient Greece",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "In ancient Persia",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "In ancient India",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "Which of the following personality is the Leader Of North Korea?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2022-02/220202-vladimir-putin-se-411p-ac35b3.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://cdn.britannica.com/22/196322-050-32F5779E/Moon-Jae-In-2017.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://s.abcnews.com/images/Politics/GTY-kim-jong-un-jt-170402_16x9_1600.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://api.time.com/wp-content/uploads/2019/09/lee-hsien-loong.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "When did people in Britain vote in favour of Brexit?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "2015 ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "2016",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "2015",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "2017",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "Angela Merkel is the current chancellor or head of the government in which country?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "France  ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Great Britain",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Germany ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Poland",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "Who was the first major world leader confirmed to have COVID-19?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Jair Bolsinaro ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Boris Johnson",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Lukashenko ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Donald Trump",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "Who won the 2020 presiential elections in USA?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Trump ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Bernie Sanders",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Hillary ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Biden",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Who of the following is the president of Turkey?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Obama ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Modi",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Recep Tayyip Erdoğan ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Scott Morrison",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "This Leader of South Africa won a Nobel Peace Prize?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://www.cbc.ca/kidscbc2/content/the_feed/presvspm_trudeau-min.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://i.ytimg.com/vi/HlJnm_rpt5Y/hqdefault.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://api.time.com/wp-content/uploads/2020/06/GettyImages-1248074439.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "D",
+                        "value": "https://api.time.com/wp-content/uploads/2019/01/jay-a-brown-barbara-moss-martin-luther-king-1.jpg",
                         "isImageType": true
                     }
                 ],
@@ -119,32 +1728,90 @@
         "status": "INCOMPLETE",
         "result": ""
     },
-    "entertainment": {
-        "title": "Entertainment",
-        "description": "This quiz is about entertainment",
+
+
+    "automobiles": {
+        "title": "Automobiles",
+        "description": "Jump in here if you are a Lover of cars, Motorbikes and all that fall under automobiles industry?",
         "questions": [
             {
                 "key": 1,
-                "question": "King khan of bollywood",
+                "question": "The fastest Car in the world right now is?",
                 "options": [
                     {
                         "key": "A",
-                        "value": "SRK",
+                        "value": "Bugatti Chiron",
                         "isImageType": false
                     },
                     {
                         "key": "B",
-                        "value": "Salman Khan",
+                        "value": "Koinegsegg Regera",
                         "isImageType": false
                     },
                     {
                         "key": "C",
-                        "value": "Hrithik Roshan",
+                        "value": "Henessy Vvenom F5",
                         "isImageType": false
                     },
                     {
                         "key": "D",
-                        "value": "Ranbir Kapoor",
+                        "value": "Devel Sixteen",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "This team won the  most number of world titles in F1?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "McLaren ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Mercedes ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Wiliams ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Ferrari",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "The first NASCAR-sanctioned race was held on Daytona beach in the year?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "1948",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "1947",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "1959",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "1944",
                         "isImageType": false
                     }
                 ],
@@ -152,27 +1819,83 @@
                 "selected": ""
             },
             {
-                "key": 2,
-                "question": "Who has won more tennis grand slam titles?",
+                "key": 4,
+                "question": "The logo of Ferrari is?",
                 "options": [
                     {
                         "key": "A",
-                        "value": "Venus Williams",
+                        "value": "https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_ogp_001.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://1000logos.net/wp-content/uploads/2018/04/Hyundai-Logo-1990.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Emblem.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://wallpaperaccess.com/full/916612.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "In How many Continents is the 2021 World Rally Championship is being held?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "5 ",
                         "isImageType": false
                     },
                     {
                         "key": "B",
-                        "value": "Serena Williams",
+                        "value": "7",
                         "isImageType": false
                     },
                     {
                         "key": "C",
-                        "value": "Maria Sharapova",
+                        "value": "9",
                         "isImageType": false
                     },
                     {
                         "key": "D",
-                        "value": "Sania Mirza",
+                        "value": "4",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "Henry Ford established Ford Motor Company in?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "1913  ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "1903",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "1935 ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "1899",
                         "isImageType": false
                     }
                 ],
@@ -180,27 +1903,27 @@
                 "selected": ""
             },
             {
-                "key": 3,
-                "question": "Which boxer fought against Muhammad Ali and won?",
+                "key": 7,
+                "question": "Which British automaker produces Air Plane engines along with engines for cars?",
                 "options": [
                     {
                         "key": "A",
-                        "value": "Mike Tyson",
+                        "value": "Bentley ",
                         "isImageType": false
                     },
                     {
                         "key": "B",
-                        "value": "Sugar Ray Robinson",
+                        "value": "Jaguar ",
                         "isImageType": false
                     },
                     {
                         "key": "C",
-                        "value": "Joe Frazier",
+                        "value": "Rolls Royce ",
                         "isImageType": false
                     },
                     {
                         "key": "D",
-                        "value": "Floyd Mayweather",
+                        "value": "BMW",
                         "isImageType": false
                     }
                 ],
@@ -208,31 +1931,665 @@
                 "selected": ""
             },
             {
-                "key": 4,
-                "question": "Who is the cricket player Sachin Tendulkar in the images below?",
+                "key": 8,
+                "question": "Name the car brand which is quite famous in james bond movies?",
                 "options": [
                     {
                         "key": "A",
-                        "value": "https://i0.wp.com/short-biography.com/wp-content/uploads/usain-bolt/Usain-Bolt.jpg?fit=1526%2C1526&ssl=1",
+                        "value": "Aston Martin ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "BMW ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Audi  ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Benz",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Tesla was founded by this person",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/4f1a09bf-6f64-4d33-8290-f4f59d2d81bd/ElonMusk_2017-stageshot.jpg",
                         "isImageType": true
                     },
                     {
                         "key": "B",
-                        "value": "https://economictimes.indiatimes.com/thumb/msid-72033478,width-1200,height-900,resizemode-4,imgsize-222096/sachin-tendulkar.jpg?from=mdr",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/John_Francis_Dodge.jpg/220px-John_Francis_Dodge.jpg",
                         "isImageType": true
                     },
                     {
                         "key": "C",
-                        "value": "https://i.pinimg.com/474x/77/ca/b5/77cab5cb8a13f53c0022432d9a84f2e4.jpg",
+                        "value": "https://media2.nekropole.info/2012/11/Genry.jpg",
                         "isImageType": true
                     },
                     {
-                        "key": "D",
-                        "value": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/01/21/15480265236914.jpg",
+                        "key": "C",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/d/d6/WilliamCDurant.jpg",
                         "isImageType": true
                     }
                 ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "This Driver has the most number of F1 World championship titles?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Michael Schumacher",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Juan Manuel Fangio",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Alain Prost",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Sebastian Vettel",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+
+    "general knowledge": {
+        "title": "General knowledge",
+        "description": "Are you a ‘jack’ of all trades? We’d love you to take this up, my friend!",
+        "questions": [
+            {
+                "key": 1,
+                "question": "The fastest Car in the world right now is?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Bugatti Chiron",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Koinegsegg Regera",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Henessy Vvenom F5",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Devel Sixteen",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "This team won the  most number of world titles in F1?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "McLaren ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Mercedes ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Wiliams ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Ferrari",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "The first NASCAR-sanctioned race was held on Daytona beach in the year?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "1948",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "1947",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "1959",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "1944",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "The logo of Ferrari is?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_ogp_001.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://1000logos.net/wp-content/uploads/2018/04/Hyundai-Logo-1990.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Emblem.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://wallpaperaccess.com/full/916612.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "In How many Continents is the 2021 World Rally Championship is being held?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "5 ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "7",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "9",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "4",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "Henry Ford established Ford Motor Company in?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "1913  ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "1903",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "1935 ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "1899",
+                        "isImageType": false
+                    }
+                ],
                 "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "Which British automaker produces Air Plane engines along with engines for cars?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Bentley ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Jaguar ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Rolls Royce ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "BMW",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "Name the car brand which is quite famous in james bond movies?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Aston Martin ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "BMW ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Audi  ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Benz",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "Tesla was founded by this person",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/4f1a09bf-6f64-4d33-8290-f4f59d2d81bd/ElonMusk_2017-stageshot.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/John_Francis_Dodge.jpg/220px-John_Francis_Dodge.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://media2.nekropole.info/2012/11/Genry.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/d/d6/WilliamCDurant.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "This Driver has the most number of F1 World championship titles?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Michael Schumacher",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Juan Manuel Fangio",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Alain Prost",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Sebastian Vettel",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            }
+        ],
+        "status": "INCOMPLETE",
+        "result": ""
+    },
+
+    "electronics": {
+        "title": "Electronics",
+        "description": "Got a strong appetite for Mobile, laptops or any electronic device for that matter? Check how much you know about them!",
+        "questions": [
+            {
+                "key": 1,
+                "question": "What is the best definition of the word cell as it relates to cellular phones?  ",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "A radio",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "A telephone pole",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "A nearby base station",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Any type of telephone",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 2,
+                "question": "In the 1950s, a portable mobile phone named the LK-1 was developed. Who was the engineer who created this radiophone?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Philip Porter ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "William Rae Young ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Douglas Ring ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Leonid Kupriyanovich",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 3,
+                "question": "What does the expression 2G mean when talking about cell phone development?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Two thousand",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Second grade",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Two gigabytes",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Second generation",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 4,
+                "question": "Dr. Morton Cooper supposedly made the first modern mobile phone call on a New York City street in 1973. For which Illinois company was Cooper working at the time?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://s3.amazonaws.com/ae-lane-report/wp-content/uploads/2018/08/R7poM6T9.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://media.idownloadblog.com/wp-content/uploads/2018/07/Apple-logo-black-and-white.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://cdn.britannica.com/34/128734-050-2AF822A1/Motorola-logo-2005.jpg",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 5,
+                "question": "The first smartphones were designed in the early 1990s. What is the definition of a smartphone",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "A device which does not have personal digital assistance capability ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Any 2G type of cellular device",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "A device which allows users to install and run applications of their choice.",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "A device which does not have a ringtone",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
+                "selected": ""
+            },
+            {
+                "key": 6,
+                "question": "Which of the following is not a property of semiconductors used in electronic devices?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "They excite electrons",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "They don’t emit light",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "They have high thermal conductivity ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "They have variable electrical conductivity",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "B",
+                "selected": ""
+            },
+            {
+                "key": 7,
+                "question": "Which of the following technique can’t be used for generating electron-hole pairs in electronic Devices?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Thermal excitation ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Impact ionization",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Photo excitation",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": " Impurity injection",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "D",
+                "selected": ""
+            },
+            {
+                "key": 8,
+                "question": "What type of semiconductor is used in LED electronic circuits?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Intrinsic semiconductor ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Compound semiconductor ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Degenerated semiconductor  ",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Compensated semiconductor",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 9,
+                "question": "1G was introduced by_______ country.",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "B",
+                        "value": "https://image.shutterstock.com/image-photo/image-260nw-425123608.jpg",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://www.pinclipart.com/picdir/middle/519-5198310_singapore-logo-singapore-flag-png-clipart.png",
+                        "isImageType": true
+                    },
+                    {
+                        "key": "C",
+                        "value": "https://cdn.freebiesupply.com/logos/large/2x/indiac-logo-png-transparent.png",
+                        "isImageType": true
+                    }
+                ],
+                "answer": "A",
+                "selected": ""
+            },
+            {
+                "key": 10,
+                "question": "Mass action law is not valid for which type of semiconductors in electronic devices?",
+                "options": [
+                    {
+                        "key": "A",
+                        "value": "Compound",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "B",
+                        "value": "Elemental",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "C",
+                        "value": "Degenerative",
+                        "isImageType": false
+                    },
+                    {
+                        "key": "D",
+                        "value": "Compensated",
+                        "isImageType": false
+                    }
+                ],
+                "answer": "C",
                 "selected": ""
             }
         ],
@@ -240,4 +2597,3 @@
         "result": ""
     }
 }
-

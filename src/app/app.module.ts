@@ -29,6 +29,7 @@ import { AdminDashboardLandingComponent } from './admin-dashboard-landing/admin-
 import { MatInputModule } from '@angular/material/input';
 // import { NgModule } from '@angular/core';
 import player from 'lottie-web';
+import { AdminReportsComponent } from './admin-reports/admin-reports.component';
 
 export function playerFactory() {
   return player;
@@ -49,6 +50,7 @@ export function playerFactory() {
     HomePageComponent,
     AdminComponent,
     AdminDashboardLandingComponent,
+    AdminReportsComponent,
   ],
   imports: [
     BrowserModule,

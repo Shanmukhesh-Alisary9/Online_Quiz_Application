@@ -1,1 +1,65 @@
-<p>reports works!</p>
+<div class="row" id="page-content"  >
+    <div class="col-12 p-4 ">
+
+        <!-- Profile header wwith search -->
+        <div class="col-12 mt-4 px-3  d-flex">
+            <div class="col-2 profileStyling ">
+                <div style="margin-top: 18px;">
+                    Quiz
+                </div>
+                    <div class="col-8 d-flex justify-content-end">
+                        <button class="buttonStyling">
+                            Start New Quiz
+                        </button>
+                    </div>          
+            </div>
+
+            <div class="col-3  ">
+                <!-- <mat-form-field appearance="outline" class="searchField">
+                    <input
+                      type="text"
+                      matInput
+                      placeholder="Search Careers"
+                      [formControl]="myControl"
+                      [(ngModel)]="searchText"
+                    />
+                    <mat-icon matSuffix class="magBag"> search </mat-icon>
+                  </mat-form-field> -->
+                <div class="searchStyling">
+                    <div style="padding: 1rem" >
+                        Search
+                    </div>
+                    
+                </div>
+                  
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-12 d-flex mt-4 px-3">
+            <div class="col-12 recentQuizStyling">
+                Reports(12)
+            </div>
+            
+        </div>
+        
+        <div class="col-12 boxLayout" style="display: grid;" *ngFor="let item of quizCategory">
+            <div class="col-12 sportsCard">
+                {{item}}
+
+            </div>
+
+
+        </div>
+
+
+  
+ 
+
+        
+    </div>
+</div>

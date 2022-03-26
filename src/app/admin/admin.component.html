@@ -14,10 +14,10 @@
     <div id="sidebar-wrapper">
 
         <!-- My Profile tab -->
-        <div class=" justify-content-center mt-4" [ngClass]="router.url == '/dashboard' ? 'profileImg' : 'nonProfileImg'"
+        <!-- <div class=" justify-content-center mt-4" [ngClass]="router.url == '/admin-dashboard' ? 'profileImg' : 'nonProfileImg'"
             routerLink="/dashboard">
             <div class="d-flex justify-content-center  mt-4 " >
-                <img [src]="router.url == '/dashboard'
+                <img [src]="router.url == '/admin-dashboard'
                 ? '/assets/Dashboard/darkProfile.svg'
                 : '/assets/Dashboard/lightProfile.svg'
             " [ngClass]="router.url == '/dashboard' ? 'iconImgStyling' : ''"/>
@@ -25,31 +25,31 @@
             <div class="d-flex justify-content-center  mt-1 pb-2">
                 My Profile
             </div>
-        </div>
+        </div> -->
 
-        <!-- Quiz Tab -->
-        <div class=" justify-content-center  mt-4 " [ngClass]="router.url == '/dashboard/quiz' ? 'profileImg' : ''"
-            routerLink="/dashboard/quiz">
+        <!--Admin Quiz Tab -->
+        <div class=" justify-content-center  mt-4 " [ngClass]="router.url == '/admin-dashboard' ? 'profileImg' : ''"
+            routerLink="/admin-dashboard">
             <div class="d-flex justify-content-center mt-5">
                 <!-- <img src="/assets/Dashboard/lightQuiz.svg" /> -->
-                <img [src]="router.url == '/dashboard/quiz'
+                <img [src]="router.url == '/admin-dashboard'
                     ? '/assets/Dashboard/darkQuiz.svg'
                     : '/assets/Dashboard/lightQuiz.svg'
-                " [ngClass]="router.url == '/dashboard/quiz' ? 'iconImgStyling' : ''" />
+                " [ngClass]="router.url == '/admin-dashboard' ? 'iconImgStyling' : ''" />
             </div>
             <div class="d-flex justify-content-center  mt-1 pb-2">
                 Quiz
             </div>
         </div>
 
-        <!-- Reports Tab -->
-        <div class=" justify-content-center  mt-4 " [ngClass]="router.url == '/dashboard/reports' ? 'profileImg' : ''"
-        routerLink="/dashboard/reports">
+        <!--Admin Reports Tab -->
+        <div class=" justify-content-center  mt-4 " [ngClass]="router.url == '/admin-dashboard/admin-reports' ? 'profileImg' : ''"
+        routerLink="/admin-dashboard/admin-reports">
             <div class="d-flex justify-content-center mt-5">
-                <img [src]="router.url == '/dashboard/reports'
+                <img [src]="router.url == '/admin-dashboard/admin-reports'
                 ? '/assets/Dashboard/darkReports.svg'
                 : '/assets/Dashboard/lightReports.svg'
-            " [ngClass]="router.url == '/dashboard/reports' ? 'iconImgStyling' : ''" />
+            " [ngClass]="router.url == '/admin-dashboard/admin-reports' ? 'iconImgStyling' : ''" />
             </div>
             <div class="d-flex justify-content-center  mt-1 pb-2">
                 Reports
